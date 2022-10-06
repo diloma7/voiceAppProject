@@ -1,9 +1,14 @@
 import './App.css';
+import Login from './components/login';
+import PasswordReset from './components/passwordReset';
+import Register from './components/register';
 
 function App() {
   return (
     <div className="App">
-      <h1>Voice App</h1>
+      <Login />
+      <Register />
+      <PasswordReset />
     </div>
   );
 }
