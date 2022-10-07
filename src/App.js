@@ -1,14 +1,10 @@
-import './App.css';
-import Login from './components/login';
-import PasswordReset from './components/passwordReset';
-import Register from './components/register';
+import Home from './components/home/home';
+
 
 function App() {
   return (
     <div className="App">
-      <Login />
-      <Register />
-      <PasswordReset />
+      <Home />
     </div>
   );
 }
